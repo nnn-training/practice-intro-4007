@@ -1,15 +1,16 @@
 'use strict';
 import $ from 'jquery';
-const block = $('#block');
+const circle = $('#circle');
 const scalingButton = $('#scaling-button');
-const movingButton = $('#moving-button');
 
 scalingButton.click(() => {
-  block.animate({ width: '200pt', height: '200pt' }, 2000);
-  block.animate({ width: '100pt', height: '100pt' }, 2000);
+  circle.animate({ width: '200pt', height: '200pt' }, 2000);
+  circle.animate({ width: '100pt', height: '100pt' }, 2000);
 });
 
+const movingButton = $('#moving-button');
+
 movingButton.click(() => {
-  block.animate({ marginLeft: '500px' }, 2000);
-  block.animate({ marginLeft: '20px' }, 2000);
+  circle.animate({ marginLeft: '500px' }, 2000);
+  circle.animate({ marginLeft: '20px' }, 2000);
 });

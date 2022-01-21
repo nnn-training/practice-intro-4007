@@ -95,24 +95,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var block = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#block');
+var circle = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#circle');
 var scalingButton = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#scaling-button');
-var movingButton = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#moving-button');
 scalingButton.click(function () {
-  block.animate({
+  circle.animate({
     width: '200pt',
     height: '200pt'
   }, 2000);
-  block.animate({
+  circle.animate({
     width: '100pt',
     height: '100pt'
   }, 2000);
 });
+var movingButton = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#moving-button');
 movingButton.click(function () {
-  block.animate({
+  circle.animate({
     marginLeft: '500px'
   }, 2000);
-  block.animate({
+  circle.animate({
     marginLeft: '20px'
   }, 2000);
 });
