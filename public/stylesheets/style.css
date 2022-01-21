@@ -13,3 +13,9 @@ a {
   margin: 20pt;
   background-color: chocolate;
 }
+
+button {
+  margin: 10px;
+  width: 70pt;
+  height: 30pt;
+}
