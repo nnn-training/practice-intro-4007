@@ -7,9 +7,10 @@ a {
   color: #00B7FF;
 }
 
-.block {
-  width: 100pt;
-  height: 100pt;
+.circle {
+  width: 100px;
+  height: 100px;
   margin: 20pt;
-  background-color: chocolate;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  background-color: rgb(245, 214, 238);
 }
