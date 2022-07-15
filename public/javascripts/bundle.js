@@ -10983,10 +10983,10 @@ scalingButton.on('click', function () {
 movingButton.on('click', function () {
   block.animate({
     marginLeft: '500px'
-  });
+  }, 500);
   block.animate({
     marginLeft: '20px'
-  });
+  }, 1000);
 });
 })();
 
